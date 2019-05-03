@@ -1,6 +1,6 @@
-#About MyLcx
+# About MyLcx
 
-##关于协议设计和Packet
+## 关于协议设计和Packet
 
 | Message Length | Command | Salt Length | Salt | Username Length | Username | Hash Length | Hash | Result | RequestID |
 | :------------: | :-----: | :---------: | :--: | :-------------: | :------: | :---------: | :--: | :----: | :-------: |
@@ -10,7 +10,7 @@
 | :----------: | :--------: | :---------: | :--: |
 |      h       |     h      |      h      | Var  |
 
-##关于Command
+## 关于Command
 
 **采用!网络字节序=big-endian**
 
@@ -18,7 +18,7 @@
 | :-----: | :-------: | :-------: | :---------: | :----------: | :----------: | :-------------: | :--------------: | :--: | :--------: |
 | Command | chap-salt | chap-hash | chap-result | bind-request | bind-reponse | connect-request | connect-response | data | disconnect |
 
-##关于命令行执行
+## 关于命令行执行
 
 有两种模式：listen模式和slave模式，终端运行即可
 
